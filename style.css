@@ -1,0 +1,45 @@
+img
+{
+    
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+   
+  
+    background-image:url(Images/steve_jobs.jpg);
+    background-size: cover;
+    display: block;
+
+    
+}
+img:hover
+{
+      transition: all 0.3s ease-in-out;
+      border-radius:50%;
+      box-shadow: 5px 5px 8px 8px brown,-5px -5px 8px 8px brown;
+}
+
+div
+{
+    box-sizing: border-box;
+    height: 50px;
+    width: 500px;
+    background-color:aqua;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    text-shadow: 10px 10px 8px red;
+    font-family:Aria;
+    word-wrap: break-word;
+  
+    
+}
+
+div:hover
+{
+      transform: rotate(90deg);
+    text-overflow: clip;
+    overflow: visible;
+}
