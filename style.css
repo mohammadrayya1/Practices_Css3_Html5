@@ -1,3 +1,10 @@
+*
+{
+    
+    -webkit-box-sizing: border-box;   
+}
+
+
 img
 {
     
@@ -19,27 +26,47 @@ img:hover
       box-shadow: 5px 5px 8px 8px brown,-5px -5px 8px 8px brown;
 }
 
-div
+
+
+.own
 {
-    box-sizing: border-box;
-    height: 50px;
-    width: 500px;
-    background-color:aqua;
-    font-size: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-top: 10px;
-    text-shadow: 10px 10px 8px red;
-    font-family:Aria;
-    word-wrap: break-word;
-  
+    text-align: center;
+    
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: brown;
+    border:1px solid aqua;
+    padding: 10px;    
     
 }
 
-div:hover
+
+.own .scale
 {
-      transform: rotate(90deg);
-    text-overflow: clip;
-    overflow: visible;
+    
+    width: 380px;
+    height: 180px;
+    background-color: aqua;
+    border: 1px solid  black;
+     transition: all 1s ease-out;
+    
+    
 }
+
+.own .scale:hover
+{
+ 
+
+ transform: rotateZ(60deg);
+/*-webkit-transform: skew(10deg,10deg) scale(.5,.5) translateX(-400px) rotate(30deg);*/
+    
+ /*transform: skew(10deg,10deg) scale(.5,.5) translateX(-400px) rotate(30deg);
+   */
+ }
+ .own .scale:hover
+{
+   
+ 
+  
+ }
