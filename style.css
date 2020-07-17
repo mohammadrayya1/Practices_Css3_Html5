@@ -1,9 +1,13 @@
 *
 {
-    
+   box-sizing: border-box; 
     -webkit-box-sizing: border-box;   
 }
-
+body
+{
+    
+    height: 3000px;
+}
 
 img
 {
@@ -64,9 +68,15 @@ img:hover
  /*transform: skew(10deg,10deg) scale(.5,.5) translateX(-400px) rotate(30deg);
    */
  }
- .own .scale:hover
-{
-   
  
+ .dd
+ {
+     overflow:scroll; 
+     padding: 10px;
+     width:200px;
+     height:200px;
+     border: 10px dotted aqua;
+     margin: auto;
+     resize: both;
   
  }
